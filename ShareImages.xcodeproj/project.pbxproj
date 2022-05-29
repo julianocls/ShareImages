@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		6131285E28372AB5009FBC0D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		6131285F28372AB6009FBC0D /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
-		61E7F1882830AE77001351DE /* Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Images.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E7F1882830AE77001351DE /* ShareImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E7F18B2830AE77001351DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61E7F18D2830AE77001351DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61E7F18F2830AE77001351DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		61E7F1892830AE77001351DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61E7F1882830AE77001351DE /* Images.app */,
+				61E7F1882830AE77001351DE /* ShareImages.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61E7F1872830AE77001351DE /* Images */ = {
+		61E7F1872830AE77001351DE /* ShareImages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61E7F19C2830AE79001351DE /* Build configuration list for PBXNativeTarget "Images" */;
+			buildConfigurationList = 61E7F19C2830AE79001351DE /* Build configuration list for PBXNativeTarget "ShareImages" */;
 			buildPhases = (
 				61E7F1842830AE77001351DE /* Sources */,
 				61E7F1852830AE77001351DE /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = Images;
+			name = ShareImages;
 			productName = Images;
-			productReference = 61E7F1882830AE77001351DE /* Images.app */;
+			productReference = 61E7F1882830AE77001351DE /* ShareImages.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 61E7F1832830AE77001351DE /* Build configuration list for PBXProject "Images" */;
+			buildConfigurationList = 61E7F1832830AE77001351DE /* Build configuration list for PBXProject "ShareImages" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61E7F1872830AE77001351DE /* Images */,
+				61E7F1872830AE77001351DE /* ShareImages */,
 			);
 		};
 /* End PBXProject section */
@@ -395,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61E7F1832830AE77001351DE /* Build configuration list for PBXProject "Images" */ = {
+		61E7F1832830AE77001351DE /* Build configuration list for PBXProject "ShareImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61E7F19A2830AE79001351DE /* Debug */,
@@ -404,7 +404,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61E7F19C2830AE79001351DE /* Build configuration list for PBXNativeTarget "Images" */ = {
+		61E7F19C2830AE79001351DE /* Build configuration list for PBXNativeTarget "ShareImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61E7F19D2830AE79001351DE /* Debug */,

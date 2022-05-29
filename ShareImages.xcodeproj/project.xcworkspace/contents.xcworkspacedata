@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/julianosantos/development/workspace_swift/ShareImages/ShareImages.xcodeproj">
    </FileRef>
 </Workspace>
