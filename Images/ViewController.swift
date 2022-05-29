@@ -26,6 +26,9 @@ class ViewController: UITableViewController {
                 pictures.append(item)
             }
         }
+        
+        // add button in bar
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         //print(pictures)
     }
 
@@ -34,7 +37,7 @@ class ViewController: UITableViewController {
         return pictures.count
     }
     
-    // return data of line namber
+    // return data of line number
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
         cell.textLabel?.text = pictures[indexPath.row]
@@ -51,6 +54,16 @@ class ViewController: UITableViewController {
             // 3: now push it onto the navigation controller
             navigationController?.pushViewController(vc, animated: true)
         }
+    }
+
+    @objc func shareTapped() {
+
+
+        // invoque action share
+        
+        let vc = UIActivityViewController(activityItems: ["Ei, estou usando o ShareImage, ele é otimo!"], applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
     }
 
 }

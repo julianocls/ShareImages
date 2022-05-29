@@ -45,7 +45,8 @@ class DetailViewController: UIViewController {
         }
 
         // invoque action share
-        let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
+        
+        let vc = UIActivityViewController(activityItems: [image, " - \(selectedImage!)"], applicationActivities: [])
         vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(vc, animated: true)
     }
